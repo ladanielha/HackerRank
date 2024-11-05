@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Konversi Satuan Suhu</title>
+</head>
+<body>
+    <form action="konversi.php" method="post">
+        <h4>Konversi Satuan Suhu</h4>
+        Suhu <input type="text" name="suhu" required><br><br>
+        
+        Suhu Asal: <br>
+        <input type="radio" name="suhu_asal" value="celsius" required> Celsius<br>
+        <input type="radio" name="suhu_asal" value="reamur"> Reamur<br>
+        <input type="radio" name="suhu_asal" value="fahrenheit"> Fahrenheit<br>
+        <input type="radio" name="suhu_asal" value="kelvin"> Kelvin<br><br>
+        
+        Suhu Tujuan: <br>
+        <input type="radio" name="konversi" value="celsius" required> Celsius<br>
+        <input type="radio" name="konversi" value="reamur"> Reamur<br>
+        <input type="radio" name="konversi" value="fahrenheit"> Fahrenheit<br>
+        <input type="radio" name="konversi" value="kelvin"> Kelvin<br><br>
+        
+        <input type="submit" name="submit" value="Konversi">
+    </form>
+</body>
+</html>
